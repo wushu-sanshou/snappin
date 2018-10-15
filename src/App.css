@@ -1,0 +1,83 @@
+.user{
+  width:100%;
+  position: relative;
+}
+
+.preloader{
+  position: absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left:0;
+  background-color: rgba(255,255,255,0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s;
+}
+.complete{
+  text-align: center;
+  color: White;
+  background-color: darkseagreen;
+  margin: 10px auto;
+  padding: 10px;
+  border-radius:10px;
+}
+.userForm{
+  width: 300px;
+  margin: 50px auto;
+}
+
+.userForm textarea{
+  resize: none;
+  margin: 15px auto;
+}
+
+.inputBlock{
+margin:15px auto;
+}
+
+.userForm input,textarea{
+  display: block;
+  width:100%;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.userForm input[type='text']{
+  height: 30px;
+  box-shadow:none;
+}
+
+.userForm textarea,.userForm input[type='text']{
+  border: 1px solid #239dee;
+  border-radius: 5px;
+}
+
+.error{
+  transition: 0.3s;
+  color: red;
+}
+
+input[type='submit']{
+  height:40px;
+  line-height: 100%;
+  text-align: center;
+  font-weight: 800;
+  color: white;
+  background-color: #239dee;
+  border:none;
+  border-radius:5px;
+  cursor: pointer;
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: 0.2s;
+}
+input[type='submit']:hover{
+  background-color: #1c94c4;
+}
+
+h2{
+  text-align: center;
+}
